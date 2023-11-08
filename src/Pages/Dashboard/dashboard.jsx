@@ -205,7 +205,7 @@ export default function Dashboard() {
 
                     </div>
 
-                    <div className="tw-flex tw-gap-3 mb-3">
+                    <div className="tw-flex tw-gap-3 mb-3 tw-flex-wrap">
                         {images.map((image, index) => {
                             return <div key={index} className=" tw-w-28 tw-h-28 tw-bg-slate-200 tw-flex tw-items-center tw-justify-center tw-border-2 tw-border-slate-300"
                                 onMouseEnter={() => toggleOptions(index)}
